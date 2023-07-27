@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#B3C293;
+}
+.oyun{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-around;
+}
+h1{
+    color: white;
+    font-size: 3em;
+}
+.lottery{
+    height: 520px;
+    width: 1000px;
+    border: 2px dashed white;
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    height: 30px;
+    width: 150px;
+    color:black;
+    background-color: white;
+    font-size: 1em;
+    
+}
+.duymeler{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 38px;
+    width: 390px;
+   
+}
+.yumru{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
